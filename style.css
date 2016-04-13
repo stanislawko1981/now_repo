@@ -1,0 +1,54 @@
+body {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	background-color:	#48D1CC; 
+
+}
+.strona_glowna{
+ background-color:black;/*drugie tło głównej strony*/
+ position: relative;
+ margin-left: 50px;
+ margin-right: 50px;
+ height:800px;
+ 
+    -webkit-background-size: cover; 
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+.strona_glowna img{
+	margin-left: 50px;
+	margin-top: 40px;
+	float:left;
+}
+.strona_glowna h1 {
+	color:red;
+	margin-top: 0px;
+	margin-left: 350px;
+	margin-bottom:230px;
+}
+.baner{
+	background-color: yellow;
+	height: 120px;
+	width: 600px;
+	margin-right: 0px;
+	margin-top: 1px;
+	margin-bottom: 230px;
+	float:right;
+
+}
+.baner h2{
+	margin-left: 200px;
+	margin-top: 60px;
+}
+.reklamy{
+	background-color: green;
+	height: 120px;
+	width: 600px;
+	margin-left: 150px;
+}
+.reklamy h2{
+	color:red;
+	margin-left: 30px;
+}
