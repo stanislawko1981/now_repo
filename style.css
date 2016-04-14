@@ -1,16 +1,17 @@
 body {
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: auto;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
 	background-color:	#48D1CC; 
 
 }
 .strona_glowna{
  background-color:black;/*drugie tło głównej strony*/
  position: relative;
- margin-left: 50px;
- margin-right: 50px;
+ margin-left: auto;
+ margin-right: auto;
  height:800px;
+ width: 900px;
  
     -webkit-background-size: cover; 
      -moz-background-size: cover;
