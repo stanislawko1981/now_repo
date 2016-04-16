@@ -2,7 +2,7 @@ body {
 	margin-left: 0px;
 	margin-right: 0px;
 	margin-top: 0px;
-	background-color:	#48D1CC; 
+	background-color:	white; 
 
 }
 .strona_glowna{
@@ -10,46 +10,75 @@ body {
  position: relative;
  margin-left: auto;
  margin-right: auto;
- height:800px;
- width: 900px;
- 
+ margin-top: 0px;
+ height:3300px;
+ width: 900px; 
     -webkit-background-size: cover; 
      -moz-background-size: cover;
        -o-background-size: cover;
           background-size: cover;
 }
-.strona_glowna img{
-	margin-left: 50px;
-	margin-top: 40px;
-	float:left;
-}
 .strona_glowna h1 {
-	color:red;
-	margin-top: 0px;
-	margin-left: 350px;
-	margin-bottom:230px;
-}
-.baner{
-	background-color: yellow;
-	height: 120px;
-	width: 600px;
-	margin-right: 0px;
-	margin-top: 1px;
-	margin-bottom: 230px;
-	float:right;
-
-}
-.baner h2{
-	margin-left: 200px;
+	color:yellow;
 	margin-top: 60px;
+	margin-left: 350px;
+	margin-bottom:60px;
 }
-.reklamy{
-	background-color: green;
-	height: 120px;
-	width: 600px;
-	margin-left: 150px;
+.strona_glowna h4 {
+	color:white;
+	word-spacing: 5px;
+	text-align: center;
 }
-.reklamy h2{
-	color:red;
-	margin-left: 30px;
+
+.strona_glowna h4 p {
+	margin-bottom: 70px;
 }
+.okno2_2{
+	margin-top: 70px;
+}
+.strona_glowna h2{
+	color: white;
+}
+.okno2_2 h4 b{
+	margin-top: 15px;
+	float: left;
+	margin-left:280px;
+	}
+.okno2_3 h4 b{
+	margin-top: 55px;
+	float: left;
+	margin-left:280px;
+}
+
+.wstawka1{
+	margin-top:200px;
+	margin-left: 50px;
+}
+.wstawka2{
+	margin-top:300px;
+	margin-left: 50px;
+	margin-bottom: 260px;
+}
+.wozki h1{
+	margin-left: 400px;
+}
+.mo2{
+	margin-top: 80px;
+	margin-left: 20px;
+	float: left;
+}
+
+.partnerzy{
+	margin-top: 200px;
+	margin-left: 350px;
+}
+.style{
+	margin-top: 0px;
+}
+.prawa_autorskie{
+	margin-top: 230px;
+}
+
+
+
+
