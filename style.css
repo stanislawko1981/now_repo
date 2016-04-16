@@ -12,7 +12,7 @@ body {
  margin-right: auto;
  margin-top: 0px;
  height:3300px;
- width: 900px; 
+ width: 1400px; 
     -webkit-background-size: cover; 
      -moz-background-size: cover;
        -o-background-size: cover;
@@ -21,7 +21,7 @@ body {
 .strona_glowna h1 {
 	color:yellow;
 	margin-top: 60px;
-	margin-left: 350px;
+	margin-left: 600px;
 	margin-bottom:60px;
 }
 .strona_glowna h4 {
@@ -42,12 +42,12 @@ body {
 .okno2_2 h4 b{
 	margin-top: 15px;
 	float: left;
-	margin-left:280px;
+	margin-left:480px;
 	}
 .okno2_3 h4 b{
 	margin-top: 55px;
 	float: left;
-	margin-left:280px;
+	margin-left:480px;
 }
 
 .wstawka1{
@@ -60,23 +60,29 @@ body {
 	margin-bottom: 260px;
 }
 .wozki h1{
-	margin-left: 400px;
+	margin-left: 600px;
 }
 .mo2{
 	margin-top: 80px;
-	margin-left: 20px;
+	margin-left: 70px;
 	float: left;
 }
 
 .partnerzy{
 	margin-top: 200px;
-	margin-left: 350px;
+	margin-left: 550px;
 }
-.style{
+ .style{
+	text-align: center;
+	border-bottom: 1px solid white; 
+	width: 750px;
+	height: 0px;
+	margin-left:320px;
+	margin-top: 400px;
+}
+.prawa_autorskie1 > h4{
+	margin-left: 0px;
 	margin-top: 0px;
-}
-.prawa_autorskie{
-	margin-top: 230px;
 }
 
 
