@@ -22,7 +22,7 @@ body { font: 14px Georgia, serif; }
 .spiderman {background: url(galeria/g1.png) center center no-repeat; }
 .aquaman { background: url(galeria/12.jpg) center center no-repeat; }
 .ironman { background: url(galeria/3.jpg) center center no-repeat; }
-.superman { background: url(galeria/9.jpg) center center no-repeat; }
+.Shock { background: url(galeria_GTM/w_dladoroslych/shock_mini.png) center center no-repeat; }
 
 dt { padding: 5px; background: #900; color: white; border-bottom: 1px solid white; border-right: 1px solid white; }
 dd { position: absolute; left: -9999px; top: -9999px; width: 299px; background: #900; padding: 10px; color: white; border-right: 1px solid white; }
