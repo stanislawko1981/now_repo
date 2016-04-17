@@ -3,113 +3,100 @@
 <head>
    <title>MODI AUTO.PL</title>
    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> <!--Polskie znaki-->
+   <meta http-equiv="Content-Script-Type" content="text/javascript">
    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- ???-->
    <meta name="description" content="Motoryzacja, naprawa, serwis"/>
    <meta name="author" content="Desing by ASiM-Stanisław Korwat">
    <meta name="keywords" content="Naprawa, serwis, motoryzacja" />
    <!--CSS-->   
-   <link href="style.css" rel="stylesheet"> <!--podstawowe style strony-->
-   <link href="menu.css" rel="stylesheet"><!--menu-lista rozwijana-->   
-   <!--link-->
-   <link rel="icon" href="favicon.ico">
-   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400;300' rel='stylesheet' type='text/css'>
+   <link href="baza.css" rel="stylesheet"> <!--podstawowe style strony--> 
+   <link href="styles.css" rel="stylesheet"><!-- rozwijane główne menu-->
+   <link href="menu_boczne.css" rel="stylesheet">
+   <!--script-->
+   <script type='text/javascript' src='script.js'></script><!--rozwijane główne menu-->
 </head>
 <body>
-   <div class="strona_glowna">
-    <img style="width: 320px; height: 150px; margin-right: auto; margin-left: auto; margin-top: auto;" 
-      src="galeria/mo2.png">
-   </img>
-<ol id="menu">
-      <li><a href="index.html">Strona główna</a></li>
-      <li><a href="#">O firmie</a></li>
-      <li class="dol"><a href="#">Oferta</a>
-        <ul>
-          <li><a href="oferta.html">Aktywne</a>
-            <ol>
-              <li><a href="oferta.html">WÓZKI </a></li>
-            </ol>
-          </li>
-        <li class="prawo"><a href="#">Partnerzy</a>
-          <ol>
-            <li><a href="http://www.gtmmobil.com.pl/">GTM MOBIL</a></li>
-            <li><a href="http://www.guidosimplex.it/">Guidosimplex</a></li>                
-          </ol>
-        </li>         
-      </ul>
-    </li>
-  <li class="dol"><a href="#">Galeria</a>
-    <ul>
-      <li><a href="#">WÓZKI AKTYWNE</a>
-        <ol>
-          <li><a href="galeria.html"> DLA DOROSŁYCH</a></li>
-        </ol>
-      </li>  
-    <li class="prawo"><a href="#">x</a>
-      <ol>
-        <li><a href="#">x</a></li>
-        <li><a href="#"> x</a></li>
-        <li><a href="#"> x</a></li>
-      </ol>
-    </li>
-  <li class="prawo"><a href="#">x</a>
-    <ol>
-      <li><a href="#">x </a></li>
-      <li><a href="#"> x </a></li>
-    </ol>
-  </li>
+   <div class="baza"><!--zawiera zawartość strony-->
+      <div id='cssmenu'>
+         <ul>
+            <li><a href='#'>Strona główna</a></li>
+            <li class='active'><a href='#'>Oferta</a>
+               <ul>
+               <li><a href='#'>xxxxxxx</a>
+                  <ul>
+                     <li><a href='#'>Sub Product</a></li>
+                     <li><a href='#'>Sub Product</a></li>
+                  </ul>
+               </li>
+            <li><a href='#'>Kontakt</a>
+               <ul>
+                  <li><a href='#'>Sub Product</a></li>
+                  <li><a href='#'>Sub Product</a></li>
+               </ul>
+            </li>
+         </ul>
+      </li>
+   <li><a href='#'>Galeria</a></li>
+   <li><a href='#'>Kontakt</a></li>
 </ul>
-</li>
-  <li><a href="kontakt.html">Kontakt</a></li>
-</ol>
-   <h1>SAMOCHODY</h1>
-      <h4>URZĄDZENIA DLA KIEROWCÓW I PASAŻERÓW NIEPEŁNOSPRAWNYCH</h4>
-         <h4>
-            <p>&lowast; GAZ HAMULEC &lowast; GAZ W KIEROWNICY &lowast; ELEKTR.SPRZĘGŁO &lowast;WINDY &lowast; RAMPY* &lowast; NAJAZDY &lowast; PLATFORMY &lowast; PASY &lowast;
-            </p>
-         </h4>
-      <div class="okno2_2">
-         <h4><b>PEŁNA OFERTA</b></h4>
-         <img style="width: 200px;height:50px; margin-right: 510px;margin-bottom: 20px; float: right; " src="galeria/gui.png">
+</div>
+   <img style="width: 300px; height:200px; margin-left: 100px; margin-top: 0px; float:right; " src="galeria/mo.jpg">
+   <img style="opacity: 0.8" src="galeria/Bartek.jpg">
+
+   
+   <a href="#" alt="tekst alternatywny"><img style="float: left; width: 500px; height: 400px; margin-top: 200px; margin-left: 130px;" src="   galeria/Gui/gui_wspomaganie.jpg"> 
+   <div class="uklad">
+      <h2><b><a href="#">Układ kierowniczy</a></b></h2>
+       <h3><p>xxxxxx  xxxx xxxxx  xxxx xxxxxxxx  xxxxx xxx
+       xxxx xxxx  xx xxxxxxxxx xx  xxxxxx  xxxxxxxx
+       xxxxxx xxxx xxxxxx  xxx xxx xxxxx  xxxxxx xx</p></h3>
+   </div>
+      <ul id="menu3"><h3>Informacje dodatkowe</h3>
+    <li><a href="#">link - 1</a></li>
+    <li><a href="#">link - 2</a></li>
+    <li><a href="#">link - 3</a></li>
+    <li><a href="#">link - 4</a></li>
+   </ul>
+
+   <a href="#" src="#"><img style="float: right; width: 500px; height: 400px; margin-top: 200px; margin-right: 500px;" src="galeria/Gui/gui_wozek.jpg">
+  <div class="uklad2">
+   <h2><b><a href="#">Wózki inwalidzkie</a></b></h2>
+         <h3><p>xxxxxx  xxxx xxxxx  xxxx xxxxxxxx  xxxxx xxx
+       xxxx xxxx  xx xxxxxxxxx xx  xxxxxx  xxxxxxxx
+       xxxxxx xxxx xxxxxx  xxx xxx xxxxx  xxxxxx xx</p></h3>
       </div>
-  <div class="wstawka1">
-    <img style="height: 200px;width: 200px;" src="galeria/4.jpg">
-    <img style="height: 150px;width: 200px;" src="galeria/3.jpg">
-    <img style="height: 150px;width: 200px;" src="galeria/6.jpg">
-    <img style="height: 150px;width: 200px;" src="galeria/7.jpg"> 
-    <img style="height: 150px;width: 200px;" src="galeria/8.jpg"> 
-    <img style="height: 150px;width: 200px;" src="galeria/g3.png"  
-  </div>
-<div class="wozki">
-  <h1>WÓZKI</h1>
+   <a href="#"><img style="float: left; width: 500px; height: 400px; margin-top: 230px; margin-left: 130px;" src="   galeria/Gui/gui_pedaly.jpg">
+      <div class="uklad3">
+      <h2><b><a href="#">Systemy wspomagania</a></b></h2>
+       <h3><p>xxxxxx  xxxx xxxxx  xxxx xxxxxxxx  xxxxx xxx
+       xxxx xxxx  xx xxxxxxxxx xx  xxxxxx  xxxxxxxx
+       xxxxxx xxxx xxxxxx  xxx xxx xxxxx  xxxxxx xx</p></h3>
+   </div>
+   <a href="#"><img style="float: right; width: 500px; height: 400px; margin-top: 230px; margin-right: 500px;" src="galeria/Gui/gui_panel.jpg">
+      <div class="uklad4">
+      <h2><b><a href="#">Panel kierowniczy</a></b></h2>
+       <h3><p>xxxxxx  xxxx xxxxx  xxxx xxxxxxxx  xxxxx xxx
+       xxxx xxxx  xx xxxxxxxxx xx  xxxxxx  xxxxxxxx
+       xxxxxx xxxx xxxxxx  xxx xxx xxxxx  xxxxxx xx</p></h3>
+   
+
+<img style="margin-top: 400px;" src="galeria/tlo.jpg">
+
 </div>
-  <h4>AKTYWNE WÓZKI INWALIDZKIE I SPORTOWE DLA DOROSŁYCH, MŁODZIEŻY I DZIECI</h4>
-  <h4><p> &lowast; SYSTEM ELEKTRYCZNEGO WSPOMAGANIA NAPĘDU WÓZKÓW &lowast;
-   &lowast; SKOŁA POMOCNICZE &lowast; PIONIZATORY &lowast;</p></h4>
-<div class="okno2_3">  
-  <h4><b>PEŁNA OFERTA</b></h4></div>
-  <img style="width: 220px;height:150px; margin-right: 510px; margin-bottom: 20px; float: right;" src="galeria/GTM1.png">
-  <div class="wstawka2">
-    <img style="height: 150px;width: 200px;" src="galeria/9.jpg">
-    <img style="height: 150px;width: 200px;" src="galeria/10.jpg">
-    <img style="height: 150px;width: 200px;" src="galeria/11.jpg">
-    <img style="height: 150px;width: 200px;" src="galeria/12.jpg">    
-  </div>
-<div class="mo2">
-  <img style="width: 350px;height:150px; margin-left: 160px;" src="galeria/mo2.png"> </div>
-      <h2>DOJEŻDŻAMY NA BEZPŁATNE KONSULTACJE</h2>
-      <h1>TEL.500 227 978</h1>
-      <h1>TEL.500 227 979</h1>
-   <div class="partnerzy">
-    <h2>Parnterzy</h2>
-    <img src="galeria/2.jpg">
-  </div>
-<div class="partnerzy">
-  <img src="galeria/5.png">
+
+
+
+   
+
+   <div class="partnerzy_GTM">
+      <img src="galeria/partnerzy/GTM.png">      
+   </div>
+    <div class="partnerzy_GUI">
+      <img src="galeria/partnerzy/GUI.jpg">      
+   </div>
+
 </div>
-  <div class="style"></div>
-  <div class="prawa_autorskie"><h4>copyright by MODI AUTO.PL</h4></div>
-</div>
-</div>
+
 </body>
 </html>
+
