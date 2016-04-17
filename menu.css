@@ -7,12 +7,11 @@
       /* wygląd głównego elementu - ol */
       #menu {
         background-color:   #4682B4;
-        font-size:12px;
+        font-size:17px;
         height:2em;
         line-height:2em;
         text-align:center;
-
-      }
+        }
 
       /* wygląd wszystkich elementów - a - znajdujących się w elemencie - ol */
       #menu a {
@@ -25,7 +24,7 @@
       /* wygląd elementów - li - wszystkich dzieci elementu - ol */
       #menu > li {
         float:left;
-        width:90px;
+        width:250px;
         margin-left:0px;
         background-color:   #4682B4;
         height:2em;
@@ -33,7 +32,7 @@
 
       /* wygląd elementu - li - pierwszego dziecka elementu - ol */
       #menu > li:first-child {
-        margin-left:380px;
+        margin-left:40px;
       }
 
       /* wygląd elementów - li - wszystkich dzieci elementu - ol - po najechaniu kursorem myszki na element - li */
@@ -86,9 +85,9 @@
       /* wygląd głównego elementu - ol - w drugiej części rozwijanej */
       #menu > li > ul > li > ol {
         display:none;
-        width:150%;
+        width:200px;
         position:absolute;
-        left:100%;
+        left:90px;
         margin-top:-2em;
       }
 
