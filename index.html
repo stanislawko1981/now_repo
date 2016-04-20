@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl" dir="ltr">
 <head>
+    <link rel="Shortcut icon" href="C:\MODI_AUTO\galeria\mologo.jpg" />
    <title>MODI AUTO.PL</title>
    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> <!--Polskie znaki-->
    <meta http-equiv="Content-Script-Type" content="text/javascript">
@@ -14,17 +15,18 @@
    <link href="menu_boczne.css" rel="stylesheet">
    <!--script-->
    <script type='text/javascript' src='script.js'></script><!--rozwijane główne menu-->
+ 
 </head>
 <body>
-   <div class="baza"><!--zawiera zawartość strony-->
+   <div class="baza1"><!--zawiera zawartość strony-->
       <div id='cssmenu'>
          <ul>
             <li><a href='#'>Strona główna</a></li>
-            <li class='active'><a href='#'>Oferta</a>
+            <li class='active'><a href='#'>Pobierz</a>
                <ul>
-               <li><a href='#'>xxxxxxx</a>
+               <li><a href='#'>Formularze</a>
                   <ul>
-                     <li><a href='#'>Sub Product</a></li>
+                     <li><a href='#'>Zamówienie PDF</a></li>
                      <li><a href='#'>Sub Product</a></li>
                   </ul>
                </li>
@@ -36,57 +38,52 @@
             </li>
          </ul>
       </li>
-   <li><a href='#'>Galeria</a></li>
-   <li><a href='#'>Kontakt</a></li>
+   <li><a href='galeria.html'>Galeria</a></li>
+   <li><a href='kontakt.html'>Kontakt</a></li>
 </ul>
 </div>
-   <img style="width: 300px; height:200px; margin-left: 100px; margin-top: 0px; float:right; " src="galeria/mo.jpg">
-   <img style="opacity: 0.8" src="galeria/Bartek.jpg">
+   <img style="width: 350px; height:200px; margin-right: 50px; margin-top: 0px; float:right; " src="galeria/mo.jpg">
+   <img style="opacity: 0.8" src="galeria/baner2.jpg">
 
-   
-   <a href="#" alt="tekst alternatywny"><img style="float: left; width: 500px; height: 400px; margin-top: 200px; margin-left: 130px;" src="   galeria/Gui/gui_wspomaganie.jpg"> 
+  
+   <a href="kierownica.html" alt="układ kierowniczy"><img style="float: left; width: 400px; height: 300px; margin-top: 100px; margin-left: 250px;"  src="galeria/Gui/gui_wspomaganie.jpg" onmouseover="this.className='blu'" onmouseout="this.className='red'"> </a>
    <div class="uklad">
-      <h2><b><a href="#">Układ kierowniczy</a></b></h2>
-       <h3><p>xxxxxx  xxxx xxxxx  xxxx xxxxxxxx  xxxxx xxx
-       xxxx xxxx  xx xxxxxxxxx xx  xxxxxx  xxxxxxxx
-       xxxxxx xxxx xxxxxx  xxx xxx xxxxx  xxxxxx xx</p></h3>
+      <h2><b>Układy kierownicze</b></h2>   
    </div>
-      <ul id="menu3"><h3>Informacje dodatkowe</h3>
-    <li><a href="#">link - 1</a></li>
-    <li><a href="#">link - 2</a></li>
-    <li><a href="#">link - 3</a></li>
-    <li><a href="#">link - 4</a></li>
-   </ul>
 
-   <a href="#" src="#"><img style="float: right; width: 500px; height: 400px; margin-top: 200px; margin-right: 500px;" src="galeria/Gui/gui_wozek.jpg">
+
+
+      <ul id="menu5"><h3></h3>
+    <li><a href="#">NOWOŚĆ !</a></li>
+    <li><a href="#">Promocje</a></li>
+    <li><a href="#">Kontakt</a></li>
+    </ul>
+
+   <a href="#" src="#"><img class="red" style="float: right; width: 400px; height: 300px; margin-top: 100px; margin-right: 600px;" src="galeria/Gui/gui_wozek.jpg" onmouseover="this.className='blu'" onmouseout="this.className='red'"></a>
   <div class="uklad2">
-   <h2><b><a href="#">Wózki inwalidzkie</a></b></h2>
-         <h3><p>xxxxxx  xxxx xxxxx  xxxx xxxxxxxx  xxxxx xxx
-       xxxx xxxx  xx xxxxxxxxx xx  xxxxxx  xxxxxxxx
-       xxxxxx xxxx xxxxxx  xxx xxx xxxxx  xxxxxx xx</p></h3>
-      </div>
-   <a href="#"><img style="float: left; width: 500px; height: 400px; margin-top: 230px; margin-left: 130px;" src="   galeria/Gui/gui_pedaly.jpg">
+   <h2><b>Wózki inwalidzkie</b></h2>
+       </div>
+
+
+
+
+   <a href="pedaly.html"><img class="red" style="float: left; width: 400px; height: 300px; margin-top: 100px; margin-left: 250px;" src="   galeria/Gui/gui_pedaly.jpg" onmouseover="this.className='blu'" onmouseout="this.className='red'"></a>
       <div class="uklad3">
-      <h2><b><a href="#">Systemy wspomagania</a></b></h2>
-       <h3><p>xxxxxx  xxxx xxxxx  xxxx xxxxxxxx  xxxxx xxx
-       xxxx xxxx  xx xxxxxxxxx xx  xxxxxx  xxxxxxxx
-       xxxxxx xxxx xxxxxx  xxx xxx xxxxx  xxxxxx xx</p></h3>
+      <h2><b>Pedały</b></h2>       
    </div>
-   <a href="#"><img style="float: right; width: 500px; height: 400px; margin-top: 230px; margin-right: 500px;" src="galeria/Gui/gui_panel.jpg">
+
+
+
+   <a href="panel.html"><img class="red" style="float: right; width: 400px; height: 300px; margin-top: 100px; margin-right: 600px;" src="galeria/Gui/gui_panel.jpg" onmouseover="this.className='blu'" onmouseout="this.className='red'"></a>
       <div class="uklad4">
-      <h2><b><a href="#">Panel kierowniczy</a></b></h2>
-       <h3><p>xxxxxx  xxxx xxxxx  xxxx xxxxxxxx  xxxxx xxx
-       xxxx xxxx  xx xxxxxxxxx xx  xxxxxx  xxxxxxxx
-       xxxxxx xxxx xxxxxx  xxx xxx xxxxx  xxxxxx xx</p></h3>
-   
-
-<img style="margin-top: 400px;" src="galeria/tlo.jpg">
-
-</div>
+      <h2><b>Panel kierowniczy</b></h2>
+      </div>
 
 
 
-   
+<img style="margin-top: 100px; height: 150px;" src="galeria/tlo.jpg">
+
+  
 
    <div class="partnerzy_GTM">
       <img src="galeria/partnerzy/GTM.png">      
@@ -94,9 +91,9 @@
     <div class="partnerzy_GUI">
       <img src="galeria/partnerzy/GUI.jpg">      
    </div>
+</div> 
 
 </div>
-
 </body>
 </html>
 
