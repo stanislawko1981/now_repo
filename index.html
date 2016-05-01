@@ -1,99 +1,35 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl" dir="ltr">
 <head>
-    <link rel="Shortcut icon" href="C:\MODI_AUTO\galeria\mologo.jpg" />
    <title>MODI AUTO.PL</title>
    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> <!--Polskie znaki-->
    <meta http-equiv="Content-Script-Type" content="text/javascript">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- ???-->
+   <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
    <meta name="description" content="Motoryzacja, naprawa, serwis"/>
    <meta name="author" content="Desing by ASiM-Stanisław Korwat">
    <meta name="keywords" content="Naprawa, serwis, motoryzacja" />
    <!--CSS-->   
    <link href="baza.css" rel="stylesheet"> <!--podstawowe style strony--> 
-   <link href="styles.css" rel="stylesheet"><!-- rozwijane główne menu-->
-   <link href="menu_boczne.css" rel="stylesheet">
-   <!--script-->
-   <script type='text/javascript' src='script.js'></script><!--rozwijane główne menu-->
- 
+   <link href="slider.css" rel="stylesheet"><!-- przewijana reklama-->
 </head>
 <body>
-   <div class="baza1"><!--zawiera zawartość strony-->
-      <div id='cssmenu'>
-         <ul>
-            <li><a href='#'>Strona główna</a></li>
-            <li class='active'><a href='#'>Pobierz</a>
-               <ul>
-               <li><a href='#'>Formularze</a>
-                  <ul>
-                     <li><a href='#'>Zamówienie PDF</a></li>
-                     <li><a href='#'>Sub Product</a></li>
-                  </ul>
-               </li>
-            <li><a href='#'>Kontakt</a>
-               <ul>
-                  <li><a href='#'>Sub Product</a></li>
-                  <li><a href='#'>Sub Product</a></li>
-               </ul>
-            </li>
-         </ul>
-      </li>
-   <li><a href='galeria.html'>Galeria</a></li>
-   <li><a href='kontakt.html'>Kontakt</a></li>
-</ul>
-</div>
-   <img style="width: 350px; height:200px; margin-right: 50px; margin-top: 0px; float:right; " src="galeria/mo.jpg">
-   <img style="opacity: 0.8" src="galeria/baner2.jpg">
-
-  
-   <a href="kierownica.html" alt="układ kierowniczy"><img style="float: left; width: 400px; height: 300px; margin-top: 100px; margin-left: 250px;"  src="galeria/Gui/gui_wspomaganie.jpg" onmouseover="this.className='blu'" onmouseout="this.className='red'"> </a>
-   <div class="uklad">
-      <h2><b>Układy kierownicze</b></h2>   
-   </div>
-
-
-
-      <ul id="menu5"><h3></h3>
-    <li><a href="#">NOWOŚĆ !</a></li>
-    <li><a href="#">Promocje</a></li>
-    <li><a href="#">Kontakt</a></li>
-    </ul>
-
-   <a href="#" src="#"><img class="red" style="float: right; width: 400px; height: 300px; margin-top: 100px; margin-right: 600px;" src="galeria/Gui/gui_wozek.jpg" onmouseover="this.className='blu'" onmouseout="this.className='red'"></a>
-  <div class="uklad2">
-   <h2><b>Wózki inwalidzkie</b></h2>
-       </div>
-
-
-
-
-   <a href="pedaly.html"><img class="red" style="float: left; width: 400px; height: 300px; margin-top: 100px; margin-left: 250px;" src="   galeria/Gui/gui_pedaly.jpg" onmouseover="this.className='blu'" onmouseout="this.className='red'"></a>
-      <div class="uklad3">
-      <h2><b>Pedały</b></h2>       
-   </div>
-
-
-
-   <a href="panel.html"><img class="red" style="float: right; width: 400px; height: 300px; margin-top: 100px; margin-right: 600px;" src="galeria/Gui/gui_panel.jpg" onmouseover="this.className='blu'" onmouseout="this.className='red'"></a>
-      <div class="uklad4">
-      <h2><b>Panel kierowniczy</b></h2>
+  <div class="baza"> 
+    <div class="okno_slider"><!--przewijana reklama --> 
+      <div id="slider">  
+        <figure>
+          <img style="margin-top: 50px; height:400px;" src="galeria/1.jpg" alt="">
+          <img style="margin-top: 50px;height:400px; " src="galeria/2.jpg" alt="">
+          <img style="margin-top:50px;height:400px;" src="galeria/3.jpg" alt="">
+          <img style="margin-top: 50px;height:400px;" src="galeria/slider.jpg" alt="">    
+          <img style="margin-top: 50px;height:400px;" src="galeria/1.jpg" alt="">                   
+        </figure>
       </div>
-
-
-
-<img style="margin-top: 100px; height: 150px;" src="galeria/tlo.jpg">
-
-  
-
-   <div class="partnerzy_GTM">
-      <img src="galeria/partnerzy/GTM.png">      
-   </div>
-    <div class="partnerzy_GUI">
-      <img src="galeria/partnerzy/GUI.jpg">      
-   </div>
-</div> 
-
+    </div>  
+<a href=""><h3 style="margin-left: 580px;">HOME</h3></a> <!-- przyciski pod sliderem-->
+<a href="oferta.html"><h3 style="margin-left: 640px;">OFERTA</h3></a><!-- przyciski pod sliderem-->
+<a href="galeria.html"><h3 style="margin-left: 710px;">GALERIA</h3></a><!-- przyciski pod sliderem-->
+<a href=""><h3 style="margin-left: 790px;">KONTAKT</h3></a><!-- przyciski pod sliderem-->
+<h2> copyright by MODI AUTO.PL 2016</h2>  
 </div>
 </body>
 </html>
-
