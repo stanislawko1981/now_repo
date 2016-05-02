@@ -8,13 +8,25 @@ h3{
 	color:red;
 	display: inline;
 }
-.baza{
+.baza1{
 	margin-right: auto;
 	margin-left: auto;
-	width: 960px;
-	height:700px;
-	background-image: url('galeria/tlo.jpg');
+	margin-top: 50px;
+	width:840px;
+	height:545px;
+	background-image: url('galeria/okno4.jpg');
+	position: relative;
 	}
+.baza2{
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+	width:840px;
+	height:545px;
+	background-image: url('galeria/okno5.jpg');
+	position: relative;
+	}
+
 .baza h3{
 	position: absolute;
 	margin-top: 460px;	
@@ -25,7 +37,7 @@ h3{
 }
 .baza h2{
 	position: absolute;
-	margin-top: 550px;
+	margin-top: 0px;
 	margin-left: 160px;	
 	font-size: 8px;
 	color:grey;
@@ -38,8 +50,8 @@ h3{
 	color:red;
 }
 .okno_slider{
-	width: 800px;
-	margin-left: 80px;
+	width: 700px;
+	margin-left:70px;
 	position: absolute;
 
 

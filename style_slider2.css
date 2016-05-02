@@ -8,9 +8,9 @@
      width:100%;
      width:750px;
      position:relative;                       
-     border:3px solid #333;
-     top: 50px;
-     margin-left: 25px;
+     border:0px solid #333;
+     top: 30px;
+     margin-left: 35px;
 }
 /* slajdy */
 .slider .slide {
