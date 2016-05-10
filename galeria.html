@@ -4,25 +4,70 @@
    <title>MODI AUTO.PL</title>
    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> <!--Polskie znaki-->
    <meta http-equiv="Content-Script-Type" content="text/javascript">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+   <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- ???-->
    <meta name="description" content="Motoryzacja, naprawa, serwis"/>
    <meta name="author" content="Desing by ASiM-Stanisław Korwat">
    <meta name="keywords" content="Naprawa, serwis, motoryzacja" />
    <!--CSS-->   
    <link href="baza.css" rel="stylesheet"> <!--podstawowe style strony--> 
-   <link href="slider.css" rel="stylesheet"><!-- przewijana reklama-->
+   <link href="styles.css" rel="stylesheet"><!-- rozwijane główne menu-->
+   <link href="menu_boczne.css" rel="stylesheet">
+   <!--script-->
+   <script type='text/javascript' src='script.js'></script><!--rozwijane główne menu-->
 </head>
 <body>
-  <div class="baza"> 
-  <div class="baza2">
-
-<a href="index.html"><h3 style=" margin-top: 430px; margin-left: 500px;">HOME</h3></a> <!-- przyciski pod sliderem-->
-<a href="oferta.html"><h3 style="margin-top: 430px;margin-left: 560px;">OFERTA</h3></a><!-- przyciski pod sliderem-->
-<a href="galeria.html"><h3 style="margin-top: 430px;margin-left: 630px;">GALERIA</h3></a><!-- przyciski pod sliderem-->
-<a href=""><h3 style="margin-top: 430px;margin-left: 710px;">KONTAKT</h3></a><!-- przyciski pod sliderem-->
+   <div class="baza1_galeria"><!--zawiera zawartość strony-->
+      <div id='cssmenu'>
+         <ul>
+            <li><a href='index.html'>Strona główna</a></li>
+            <li class='active'><a href='#'>Pobierz</a>
+               <ul>
+               <li><a href='#'>Formularze</a>
+                  <ul>
+                     <li><a href='#'>Zamówienie PDF</a></li>
+                     <li><a href='#'>Sub Product</a></li>
+                  </ul>
+               </li>
+            <li><a href='#'>Kontakt</a>
+               <ul>
+                  <li><a href='#'>Sub Product</a></li>
+                  <li><a href='#'>Sub Product</a></li>
+               </ul>
+            </li>
+         </ul>
+      </li>
+   <li><a href='galeria.html'>Galeria</a></li>
+   <li><a href='#'>Kontakt</a></li>
+</ul>
 </div>
-<h2> copyright by MODI AUTO.PL 2016</h2>  
+
+
+  <img style="width: 240px; height:150px; margin-right: 0px; margin-top: 0px; float:right; " src="galeria/mo.jpg">
+
+ 
+
+
+<div class="typ">
+<h2 style="margin-left:270px;"></h2>
+</div>
+
+ 
+   <img style=" width: 200px; height: 200px; margin-top: 150px; margin-left: 350px; position: absolute; float: left;" src="galeria/budowa.jpg"> 
+  
+
+
+
+
+ 
+  
+   
+
+<img style="margin-top: 370px; height: 50px; width: 960px;" src="galeria/tlo.jpg">
+
+  
+ 
 
 </div>
 </body>
 </html>
+

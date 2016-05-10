@@ -1,0 +1,25 @@
+#menu5 {list-style-type:none; margin-left: 760px; margin-top:540px; padding:0; width:200px; float: right; position: absolute; }
+#menu5 li {margin-top:10px;}
+#menu5 li a {text-decoration:none; display:block; padding:5px; color:#AAA; text-align:center; border:1px solid #AAA; border-radius:6px;}
+#menu5 li a:hover {color:#000; background-color:#696969;}
+
+
+#menu2 {list-style-type:none; margin-left:10px; margin-top:100px; padding:0; width:200px; float: left; position: absolute; }
+#menu2 li {margin-top:10px;}
+#menu2 li a {text-decoration:none; display:block; padding:5px; color:#AAA; text-align:center; border:1px solid #AAA; border-radius:6px;}
+#menu2 li a:hover {color:#000; background-color:#696969;}
+
+#menu4 {list-style-type:none; margin-left:750px; margin-top:100px; padding:0; width:200px; float: right; position: absolute; }
+#menu4 li {margin-top:10px;}
+#menu4 li a {text-decoration:none; display:block; padding:5px; color:#AAA; text-align:center; border:1px solid #AAA; border-radius:6px;}
+#menu4 li a:hover {color:#000; background-color:#696969;}
+
+#menu3 {list-style-type:none; margin-left: 775px; margin-top:0px; padding:0; width:200px; float: right; position: fixed; }
+#menu3 li {margin-top:10px;}
+#menu3 li a {text-decoration:none; display:block; padding:5px; color:#AAA; text-align:center; border:1px solid #AAA; border-radius:6px;}
+#menu3 li a:hover {color:#000; background-color:#696969;}
+
+#menu1 {list-style-type:none; margin-left: 370px; margin-top:100px; padding:0; width:200px; float: right; position: absolute; }
+#menu1 li {margin-top:10px;}
+#menu1 li a {text-decoration:none; display:block; padding:5px; color:#AAA; text-align:center; border:1px solid #AAA; border-radius:6px;}
+#menu1 li a:hover {color:#000; background-color:#696969;}

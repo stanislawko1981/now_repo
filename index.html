@@ -1,41 +1,111 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl" dir="ltr">
 <head>
+   <link rel="Shortcut icon" href="C:\MODI_AUTO\galeria\mologo.jpg" />
    <title>MODI AUTO.PL</title>
    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> <!--Polskie znaki-->
    <meta http-equiv="Content-Script-Type" content="text/javascript">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+   <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- ???-->
    <meta name="description" content="Motoryzacja, naprawa, serwis"/>
    <meta name="author" content="Desing by ASiM-Stanisław Korwat">
    <meta name="keywords" content="Naprawa, serwis, motoryzacja" />
    <!--CSS-->   
    <link href="baza.css" rel="stylesheet"> <!--podstawowe style strony--> 
-   <link href="slider.css" rel="stylesheet"><!-- przewijana reklama-->
+   <link href="styles.css" rel="stylesheet"><!-- rozwijane główne menu-->
+   <link href="menu_boczne.css" rel="stylesheet">
+   <link href="slider.css" rel="stylesheet">
+     <link href="style_slider2.css" rel="stylesheet">
+   <!--script-->
+    <script type='text/javascript' src="jquery.js"></script>
+    <script type='text/javascript' src='slider2.js'></script>     
+  <script type='text/javascript' src='script.js'></script><!--rozwijane główne menu--> 
 </head>
 <body>
+  <div class="baza1"><!--zawiera zawartość strony-->
+    <img style=" width: 380px; height:170px; margin-left: 0px; margin-top: 15px; float:left; position: relative;" src=" galeria/mo2.jpg">
 
-  <div class="baza"> 
-
-  <div class="baza1">
-    <div class="okno_slider"><!--przewijana reklama --> 
-      <div id="slider">  
-        <figure>
-          <img style="margin-top: 45px; height:370px; ;" src="galeria/baner2.jpg" alt="">
-          <img style="margin-top: 45px;height:370px;  " src="galeria/2.jpg" alt="">
-          <img style="margin-top:45px;height:370px;" src="galeria/3.jpg" alt="">
-          <img style="margin-top: 45px;height:370px;" src="galeria/slider.jpg" alt="">    
-          <img style="margin-top: 45px;height:370px;" src="galeria/baner2.jpg" alt="">                   
-        </figure>
-      </div>
-    </div> 
-
-<a href="index.html"><h3 style=" margin-top: 430px; margin-left: 500px;">HOME</h3></a> <!-- przyciski pod sliderem-->
-<a href="oferta.html"><h3 style="margin-top: 430px;margin-left: 560px;">OFERTA</h3></a><!-- przyciski pod sliderem-->
-<a href="galeria.html"><h3 style="margin-top: 430px;margin-left: 630px;">GALERIA</h3></a><!-- przyciski pod sliderem-->
-<a href=""><h3 style="margin-top: 430px;margin-left: 710px;">KONTAKT</h3></a><!-- przyciski pod sliderem-->
+        <div id="slider"><!--reklama nad menu glownym-->   
+          <figure>
+            <img style="height:180px;" src="galeria/baner5.jpg" alt="">
+            <img style="height:180px;" src="galeria/baner4.jpg" alt="">
+            <img style="height:180px;" src="galeria/slider.jpg" alt="">
+            <img style="height:180px;" src="galeria/baner4.jpg" alt="">    
+            <img style="height:180px;" src="galeria/baner4.jpg" alt="">                   
+          </figure>
+        </div>
+      <section class="slider" id="slider">
+    <h2 class="visualhidden">Slider</h2>
+      <article class="slide active">    
+        <h2 style="font-size: 30px" class="title">Z Nami niemożliwe staje się możliwe
+          <hr style="color:#696969;  width: 620px;position: absolute; margin-top: 20px; margin-left: 0px;">
+        </h2>
+          <div class="text">
+            Oferujemy urządzenia dla kierowców i pasażerów niepełnosprawnych, <br \>
+               Aktywne wózki inwalidzkie i sportowe dla dorosłych, młodzieży i dzieci,<br \>
+               Systemy elektrycznego wspomagania napędu wózków,<br \>
+               Koła pomocnicze
+          </div>
+        <a href="slideshow_GUI.html" class="read-more">Zobacz ofertę</a>
+        <a href="oferta_GUI.html" class="read-more">Galeria</a> </article><!-- e:slide -->
+      <article class="slide">
+        <h2 style="font-size: 20px" class="title">rodukty marki GTM MOBIL</h2>
+          <div class="text">
+               tekst test tesk tekst test tesk tesk tekst tesk tekst tekst <br \>
+               test tesk tekst test tesktesk tekst tesk tesk tesk tekst<br \>
+               test tesk tekst test tesk tesk tekst tesk tekst<br \>
+               test tesk tekst test tesk tesk tekst tesk
+          </div>
+        <a href="" class="read-more">Zobacz ofertę</a>
+        <a href="galeria_GUI.html" class="read-more">Galeria</a>
+      <img style="margin-right: 20px; margin-top: 40px; width: 200px; height: 200px;" src="galeria/GTM.png" class="image" />        
+    </article><!-- e:slide -->
+  <ul class="pagination">
+    <li><a href="">1</a></li>
+    <li><a href="">2</a></li>         
+  </ul>
+</section><!-- e:slider --> 
+  <img style="margin-left: 810px; margin-top: 130px; width: 150px; height:50px;position: absolute; " src="galeria/partnerzy/guido.jpg"> 
+    <h3 style="text-align: center; margin-left: 805px; margin-top: 50px; position: absolute; font-size: 25px; ">  Autoryzowany <br \> serwis 
+    </h3>
+  <hr style="color:#696969;  width: 160px;position: absolute; margin-top:220px; margin-left: 800px;">
+<h3 style="text-align: center; margin-left: 820px; margin-top: 250px; position: absolute; font-size: 25px; "> Dystrybutor</h3>
+  <img style="margin-left: 830px; margin-top:300px; width: 100px; height: 100px;position: absolute; " src="galeria/partnerzy/GTM.png">
+    <div id='cssmenu'>   
+      <ul>
+        <li><a href='#'>Strona główna</a></li>
+          <li class='active'><a href='#'>O firmie</a></li>
+            <li><a href='#'>Oferta</a>
+              <ul>
+                <li><a href='kierownica.html'>Dla kierowców</a></li>
+                <li><a href='#'>Dla pasażerów</a></li>
+                <li><a href='#'>Wózki aktywne</a></li>
+                <li><a href='#'>Wózki sportowe</a></li>
+                <li><a href='#'>Akcesoria</a></li>                                 
+              <ul>
+            </li>
+          <li><a href='#'>Sub Product</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+<li><a href='#'>Nowości</a></li>
+<li><a href='#'>Promocje</a></li> 
+<li><a href='#'>Kontakt</a>
+     <ul>
+        <li><a href='#'>Przemysław Mickiewicz <br \>500 227 978</a></li>      
+        <li><a href='#'>Jakub Łukasiewicz <br \>500 227 979</a></li>                
+        <li><a href='kontakt.html'>Adres</a>
+          <ul>
+            <li><a href='#'>Przemysław Mickiewicz  <br \>500 227 978 </a>
+          </ul>
+        </li>         
+      </ul>
+    </li>
+  <a href="https://www.facebook.com/"><img style="margin-top: 2px; margin-left: 330px; position: absolute;width: 40px; height: 40px; " src="galeria/fej.png"></a>  
+</ul>
 </div>
-<h2> copyright by MODI AUTO.PL 2016</h2>  
-
+</div>
 </div>
 </body>
 </html>
+
