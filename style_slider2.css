@@ -4,14 +4,15 @@
 
 .slider {
      overflow: hidden;
-     height:380px;
+     height:348px;
      width:100%;
-     width:750px;
+     width:780px;
      position:absolute;                       
      border:0px solid #333;
      top: 250px;
-     margin-left: 35px;
-     background-image: url('galeria/zwyk_baner.jpg') 
+     margin-left: 0px;
+     background-image: url('galeria/zwyk_baner.png') 
+
 
 }
 /* slajdy */
@@ -31,7 +32,6 @@
      right:-300px;
      opacity:0;  
      z-index:1; /* obrazki sa nizej niz teksty */
-
      -moz-transition:     1s;      -moz-transition-delay: 1.4s;
      -webkit-transition:  1s;   -webkit-transition-delay: 1.4s;
      transition:          1s;           transition-delay: 1.4s;
@@ -46,7 +46,7 @@
      opacity:0; 
      position: relative;
      left:-500px; /* wysuniete poza kadr */
-     z-index:2;
+     z-index:2; 
      -moz-transition:    0.5s;      -moz-transition-delay: 0.5s;
      -webkit-transition: 0.5s;   -webkit-transition-delay: 0.5s;
      transition:         0.5s;           transition-delay: 0.5s;
@@ -65,17 +65,16 @@
      margin:0 0 30px 30px;
      word-spacing: 5px;
      letter-spacing: 1px;
-     z-index: 2;
-
-
+    z-index:2;
      -moz-transition:    0.5s;      -moz-transition-delay: 0.7s;
      -webkit-transition: 0.5s;   -webkit-transition-delay: 0.7s;
-     transition:         0.5s;           transition-delay: 0.7s;
+     transition:      0.5s;           transition-delay: 0.7s;
 
      -moz-transform:scale(0.2);
      -webkit-transform:scale(0.2);
      transform:scale(0.2);
 }
+
 
 
 .slider .slide .read-more {
@@ -138,7 +137,7 @@
 /* slajd aktywny */
 .slider .slide.active {
      opacity:1;  /* pokazujemy slajd */
-     z-index:10; /* aktualny slajd nad resztą slajdów */
+     z-index:1; /* aktualny slajd nad resztą slajdów */
 }
 
 .slider .slide.active .image {

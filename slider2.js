@@ -1,6 +1,6 @@
 $(function() {
 
-     var pauseTime = 8000;
+     var pauseTime = 5000;
 
      $('#slider .pagination li').click(function (e) {
           e.preventDefault();

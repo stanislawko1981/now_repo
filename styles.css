@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-#cssmenu,
-#cssmenu ul  ,
+#cssmenu ,
+#cssmenu ul ,
 #cssmenu ul li,
 #cssmenu ul li a,
 #cssmenu #menu-button {
@@ -29,6 +29,8 @@
   display: none;
 }
 #cssmenu {
+  position: relative;
+  z-index: 2;
   font-family: Montserrat, sans-serif;
   background: #333333;
 }
@@ -38,6 +40,7 @@
 #cssmenu.align-center > ul {
   font-size: 0;
   text-align: center;
+  ;
 }
 #cssmenu.align-center > ul > li {
   display: inline-block;
@@ -291,7 +294,7 @@
   }
   #cssmenu .submenu-button {
     position: absolute;
-    z-index: 99;
+    z-index:2;
     right: 0;
     top: 0;
     display: block;
