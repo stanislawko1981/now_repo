@@ -29,7 +29,7 @@ body{
 	width: 800px;
 	height:320px;		
 	position: absolute;
-	z-index: 1; 
+	z-index: 0; 
 	overflow:scroll;
 	overflow-x:hidden     
 
@@ -43,7 +43,7 @@ body{
 	background:#2F4F4F; 	 
     border-radius:10px;	
 	position: absolute;
-	z-index: 1; 
+	z-index: -1; 
 	opacity: 0.9;
 }
 .baza4_dla_pasazerow{  
@@ -55,7 +55,7 @@ body{
 	 background:#708090; 	 
      border-radius:10px;	
 	position: absolute;
-	  z-index: 1; 
+	  z-index: -1; 
 	  opacity: 0.9;
 }
 	.baza4_wozki_aktywne{  
@@ -67,7 +67,7 @@ body{
 	 background:#A52A2A; 	 
      border-radius:10px;	
 	position: absolute;
-	  z-index: 1; 
+	  z-index: -1; 
 	  opacity: 0.9;
 }
 .baza4_wozki_sportowe{  
@@ -79,7 +79,7 @@ body{
 	background:	#6B8E23; 	 
     border-radius:10px;	
 	position: absolute;
-	z-index: 1; 
+	z-index: -1; 
 	opacity: 0.9;
 }
 
@@ -528,7 +528,7 @@ h3{
      margin-top: 30px;
      margin-left: 30px;
      position: absolute;
-     z-index: 0; 
+     z-index: -1; 
       opacity: 0.6;   
 }
 .firma_text_tlo_pelne {
@@ -550,7 +550,7 @@ h3{
      margin-top: 30px;
      margin-left: 5px;
      position: absolute;
-     z-index: 0; 
+     z-index: -2; 
      opacity: 0.8;      
 }
 
@@ -561,6 +561,7 @@ h3{
 	height:320px;
 	margin-left: 0px;
 	margin-top: 40px;
+	z-index: 0;
 	overflow:scroll;
 	overflow-x:hidden 
 
@@ -571,7 +572,7 @@ h3{
 	font-size: 15px;
 	color: white;
 	position: relative;
-	z-index: 0;
+	z-index: -2;
 	width: 500px;
 	margin-left: 270px;
 	margin-top: 30px;
@@ -593,7 +594,7 @@ h3{
 	position: absolute;
 	font-weight: bold;
 	text-indent: 30px;
-	z-index: 0;
+	z-index: -1;
 }
 .firma_text_slajd_1{
 	margin-left: 50px;
@@ -631,7 +632,7 @@ h3{
 	width: 800px;
 	height:350px;
 	position: absolute;
-	z-index: 0;
+	z-index: -2;
 }
 .firma_text_kierownica_4 img{
 	margin-left: 0px;
@@ -639,6 +640,7 @@ h3{
 	width: 800px;
 	height:350px;
 	position: absolute;
+	z-index: -2;
 
 }
 .text p{
@@ -690,6 +692,7 @@ h3{
     -webkit-transition: all 1s ease; 
     -moz-transition: all 1s ease; 
     -o-transition: all 1s ease;
+
 }
 
 .size img:hover {
@@ -718,8 +721,8 @@ margin: 94px 20px 20px 20px;
 /* Styles the lightbox, removes it from sight and adds the fade-in transition */
 
 .lightbox-target {
-position: fixed;
-z-index: 3;
+position: absolute;
+z-index: 999;
 top: -100%;
 width: 100%;
 background: rgba(0,0,0,.7);
@@ -735,9 +738,8 @@ overflow: hidden;
 /* Styles the lightbox image, centers it vertically and horizontally, adds the zoom-in transition and makes it responsive using a combination of margin and absolute positioning */
 
 .lightbox-target img {
-
-margin: auto;
 position: absolute;
+margin: auto;
 top: 0;
 left:0;
 right:0;
@@ -812,12 +814,13 @@ transform:rotate(-45deg);
 opacity: 1;
 top: 0;
 bottom: 0;
+
 }
 
 .lightbox-target:target img {
 	
 max-height: 80%;
-max-width: 80%;
+max-width: 60%;
 }
 
 .lightbox-target:target a.lightbox-close {

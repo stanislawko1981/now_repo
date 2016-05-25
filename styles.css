@@ -30,7 +30,7 @@
 }
 #cssmenu {
   position: relative;
-  z-index: 2;
+  z-index: 1;
   font-family: Montserrat, sans-serif;
   background: #333333;
 }
@@ -293,7 +293,7 @@
     transform: rotate(-45deg);
   }
   #cssmenu .submenu-button {
-    position: absolute;
+    position: relative;
     z-index:2;
     right: 0;
     top: 0;
